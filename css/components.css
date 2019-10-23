@@ -1,0 +1,17 @@
+
+
+.btn-pink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 255px;
+    height: 55px;
+
+    background: #FF56A7;
+    box-shadow: 0px 4px 5px rgba(245, 134, 187, 0.3);
+    border-radius: 50px;
+
+    font-weight: 700;
+    color: #FFFFFF;
+}
