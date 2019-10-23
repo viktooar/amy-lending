@@ -85,6 +85,49 @@
 
 
 
+.quality {
+    margin-top: 110px;
+}
+
+    .quality .row {
+        flex-wrap: nowrap;
+        align-items: center;
+        position: relative;
+    }
+
+        .quality .row .item {
+
+        }
+
+            .quality .row .item .title-block {
+                padding-bottom: 20px;
+            }
+
+            .quality .row .item .text-block {
+
+                padding-bottom: 15px;
+            }
+
+                .quality .row .item:first-child .text-block {
+                    max-width: 455px;
+
+                }
+
+                .quality .row:last-child {
+                    top: -45px;
+                }
+
+                    .quality .row:last-child .item:last-child {
+                        max-width: 540px;
+                    }
+
+
+                    .quality .row .item img {
+                    width: 100%;
+            }
+
+
+
 
 
 

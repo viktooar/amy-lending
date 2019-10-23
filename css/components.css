@@ -15,3 +15,16 @@
     font-weight: 700;
     color: #FFFFFF;
 }
+
+.title-block {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--color-gray-block);
+}
+
+.text-block {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-gray-block);
+}

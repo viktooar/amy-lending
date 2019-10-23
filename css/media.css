@@ -1,0 +1,30 @@
+
+
+@media (max-width: 820px) {
+    .quality .row {
+
+        /*text-align: center;*/
+        margin-bottom: 65px;
+    }
+
+    .quality .row:last-child {
+        top: 0;
+        flex-direction: column;
+    }
+
+    .quality .row:first-child {
+        flex-direction: column-reverse;
+    }
+
+    .quality .row .item:first-child .text-block {
+        max-width: 100%;
+    }
+
+    .quality .row:last-child .item:last-child {
+        max-width: 100%;
+    }
+
+    .quality .row .item img {
+        padding-bottom: 65px;
+    }
+}
