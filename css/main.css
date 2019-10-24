@@ -78,7 +78,7 @@
         font-weight: 700;
         font-size: 26px;
         text-align: center;
-        color: #9E17F1;
+        color: var(--сolor-purple);
     }
 
 
@@ -128,7 +128,68 @@
 
 
 
+.socety-reg {
 
+}
+
+    .socety-reg .wrap-inform {
+        position: relative;
+    }
+
+    .socety-reg .inform-block {
+        background-image: url(../img/bg_socety.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*background-position: center;*/
+        width: 100%;
+
+        background-position-x: 110px;
+        padding-bottom: 1px;
+
+    }
+        .socety-reg .inform-block .title-block {
+            max-width: 511px;
+
+            margin: 0 auto;
+            padding-top: 120px;
+            padding-bottom: 30px;
+
+            text-align: center;
+        }
+
+        .socety-reg .inform-block ul {
+            display: block;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+            .socety-reg .inform-block ul .text-block {
+                padding-bottom: 15px;
+                text-align: left;
+            }
+
+                .socety-reg .inform-block ul .text-block>span {
+                    color: var(--сolor-purple);
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 59px;
+                }
+
+        .socety-reg .inform-block .text-block {
+            padding-top: 25px;
+            padding-bottom: 80px;
+            text-align: center;
+
+        }
+
+         .socety-reg .inform-block .last-text {
+             color: var(--сolor-purple);
+             text-align: center;
+         }
+
+         .socety-reg .inform-block .btn-pink {
+             margin: 30px auto 130px auto;
+         }
 
 
 
