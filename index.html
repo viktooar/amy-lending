@@ -190,17 +190,22 @@
 
 
 
-
-
 <script>
-    window.addEventListener('scroll', _ => {
-        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-        const scroll = (winScroll / height);
-        scrolPregressBar.style.setProperty('--scroll', scroll);
-        console.log(winScroll, height, scroll)
-    });
+    window.replainSettings = { id: '011f2b8c-d5ca-4529-9ad5-a6d9dd1d44e8' };
+    (function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+        var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+    })('https://widget.replain.cc/dist/client.js');
 </script>
+
+<!--<script>-->
+<!--    window.addEventListener('scroll', _ => {-->
+<!--        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;-->
+<!--        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;-->
+<!--        const scroll = (winScroll / height);-->
+<!--        scrolPregressBar.style.setProperty('&#45;&#45;scroll', scroll);-->
+<!--        console.log(winScroll, height, scroll)-->
+<!--    });-->
+<!--</script>-->
 
 </body>
 </html>

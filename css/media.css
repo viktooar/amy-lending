@@ -1,3 +1,18 @@
+@media (max-width: 1180px) {
+    .interface .item {
+        width: 100%;
+    }
+
+    .interface .row {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .interface .item:first-child {
+        left: 0;
+    }
+}
+
 @media (max-width: 1030px) {
     .socety-reg .inform-block {
         background-position-x: 0px
@@ -47,9 +62,36 @@
         .cash-back .row .item:last-child {
             padding-bottom: 45px;
         }
+
+    .cash-back .item {
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px) {
+
+    .header .logo {
+        padding-left: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .header h1 {
+        padding-top: 45px;
+
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .header p {
+        font-size: 16px;
+
+    }
+
+    .header .btn-pink {
+        margin-bottom: 40px;
+    }
+
 
     :root {
         --fz35: 20px;
