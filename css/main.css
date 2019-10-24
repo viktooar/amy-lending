@@ -265,3 +265,26 @@
             .interface .item img {
                 width: 100%;
             }
+
+
+
+
+.footer {
+    min-height: 180px;
+
+}
+
+    .footer .container {
+        border-top: 0.5px solid #EED3FF;
+        height: 100%;
+    }
+
+    .footer .row {
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .footer a {
+    color: var(--color-gray-block);
+    }

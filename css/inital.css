@@ -20,4 +20,5 @@ body {
 
 section {
     position: relative;
+    color: var(--color-gray-block);
 }
