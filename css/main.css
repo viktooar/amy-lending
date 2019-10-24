@@ -230,7 +230,7 @@
 
 
 .interface {
-
+    margin-bottom: 120px;
 }
 
     .interface .row {
@@ -260,4 +260,8 @@
 
             .interface .item .btn-pink {
                 margin: 30px auto 75px auto;
+            }
+
+            .interface .item img {
+                width: 100%;
             }
