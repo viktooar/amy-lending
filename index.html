@@ -142,5 +142,16 @@
     </div>
 </section>
 
+
+<script>
+    window.addEventListener('scroll', _ => {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scroll = (winScroll / height);
+        scrolPregressBar.style.setProperty('--scroll', scroll);
+        console.log(winScroll, height, scroll)
+    });
+</script>
+
 </body>
 </html>

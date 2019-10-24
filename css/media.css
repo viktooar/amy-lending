@@ -34,20 +34,26 @@
 
 
     .socety-reg .inform-block {
-        background-position-x: -45px;
+        background-position-x: calc(-45px - 1vw);
     }
 
 }
 
 @media (max-width: 575px) {
-    .socety-reg .inform-block {
-        background-position-x: -160px;
-    }
 
     :root {
         --fz35: 20px;
         --fz16: 14px;
+
     }
+
+
+
+    .socety-reg .inform-block {
+        background-position-x: -160px;
+    }
+
+
 
 }
 

@@ -164,11 +164,16 @@
         }
 
             .socety-reg .inform-block ul .text-block {
+                display: flex;
+                align-items: center;
+
                 padding-bottom: 15px;
                 text-align: left;
             }
 
                 .socety-reg .inform-block ul .text-block>span {
+                    padding-right: 20px;
+
                     color: var(--сolor-purple);
                     font-weight: 700;
                     font-size: 48px;
@@ -183,6 +188,10 @@
         }
 
          .socety-reg .inform-block .last-text {
+             max-width: 552px;
+
+             margin: 0 auto;
+
              color: var(--сolor-purple);
              text-align: center;
              font-weight: 700;
