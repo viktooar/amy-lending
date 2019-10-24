@@ -39,6 +39,16 @@
 
 }
 
+@media (max-width: 775px) {
+    .cash-back .row {
+        flex-direction: column-reverse;
+    }
+
+        .cash-back .row .item:last-child {
+            padding-bottom: 45px;
+        }
+}
+
 @media (max-width: 575px) {
 
     :root {

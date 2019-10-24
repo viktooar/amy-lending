@@ -192,11 +192,6 @@
 
              margin: 0 auto;
 
-             color: var(--сolor-purple);
-             text-align: center;
-             font-weight: 700;
-             font-size: 26px;
-             line-height: 32px;
          }
 
          .socety-reg .inform-block .btn-pink {
@@ -206,3 +201,63 @@
 
 
 
+
+.cash-back {
+    margin-bottom: 135px;
+}
+
+    .cash-back .row {
+        align-items: center;
+    }
+
+        .cash-back .item {
+            width: 50%;
+        }
+
+            .cash-back .item .title-block {
+                /*padding-top: 100px;*/
+                padding-bottom: 20px;
+            }
+
+            .cash-back .item .text-block {
+                padding-bottom: 15px;
+            }
+
+            .cash-back .item img {
+
+            }
+
+
+
+.interface {
+
+}
+
+    .interface .row {
+        align-items: center;
+    }
+
+        .interface .item {
+            width: 50%;
+        }
+
+            .interface .item:first-child {
+                position: relative;
+                left: -70px;
+            }
+
+            .interface .item .title-block {
+                padding-bottom: 30px;
+            }
+
+            .interface .item .text-block {
+                padding-bottom: 90px;
+            }
+
+            .interface .item .last-text {
+
+            }
+
+            .interface .item .btn-pink {
+                margin: 30px auto 75px auto;
+            }
