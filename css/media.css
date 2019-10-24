@@ -1,4 +1,8 @@
-
+@media (max-width: 1030px) {
+    .socety-reg .inform-block {
+        background-position-x: 0px
+    }
+}
 
 @media (max-width: 820px) {
     .quality .row {
@@ -27,4 +31,33 @@
     .quality .row .item img {
         padding-bottom: 65px;
     }
+
+
+    .socety-reg .inform-block {
+        background-position-x: -45px;
+    }
+
 }
+
+@media (max-width: 575px) {
+    .socety-reg .inform-block {
+        background-position-x: -160px;
+    }
+
+    :root {
+        --fz35: 20px;
+        --fz16: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

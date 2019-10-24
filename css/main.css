@@ -185,6 +185,9 @@
          .socety-reg .inform-block .last-text {
              color: var(--сolor-purple);
              text-align: center;
+             font-weight: 700;
+             font-size: 26px;
+             line-height: 32px;
          }
 
          .socety-reg .inform-block .btn-pink {
